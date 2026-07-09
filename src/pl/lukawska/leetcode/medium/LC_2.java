@@ -4,7 +4,7 @@ import pl.lukawska.leetcode.ListNode;
 
 //LINK: https://leetcode.com/problems/add-two-numbers/description/
 
-public class AddTwoNumbers_2 {
+public class LC_2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode sumNode = new ListNode(0);
         ListNode result = sumNode;
