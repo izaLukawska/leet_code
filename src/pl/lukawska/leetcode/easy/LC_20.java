@@ -2,7 +2,6 @@ package pl.lukawska.leetcode.easy;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Queue;
 
 //LINK: https://leetcode.com/problems/valid-parentheses/
 public class LC_20 {
