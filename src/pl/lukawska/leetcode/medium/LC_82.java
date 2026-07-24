@@ -2,6 +2,7 @@ package pl.lukawska.leetcode.medium;
 
 import pl.lukawska.leetcode.ListNode;
 
+//https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 public class LC_82 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
