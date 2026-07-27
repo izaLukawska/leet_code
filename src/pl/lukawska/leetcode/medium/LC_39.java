@@ -5,7 +5,6 @@ import java.util.*;
 //https://leetcode.com/problems/combination-sum/
 public class LC_39 {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates);
         List<List<Integer>> result = new ArrayList<>();
 
         backtrack(candidates, result, new ArrayList<>(),  target, 0);
