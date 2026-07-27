@@ -1,5 +1,6 @@
 package pl.lukawska.leetcode.hard;
 
+//https://leetcode.com/problems/first-missing-positive/description/
 public class LC_41 {
     public int firstMissingPositive(int[] nums) {
         int n = nums.length;
