@@ -1,13 +1,7 @@
 package pl.lukawska.leetcode.hard;
 
-import java.util.HashMap;
-import java.util.Map;
-
+//https://leetcode.com/problems/minimum-window-substring/description/
 public class LC_76 {
-    public static void main(String[] args) {
-        System.out.println(minWindow("ADOBECODEBANC", "ABC"));
-    }
-
     public static String minWindow(String s, String t) {
         if (s.length() < t.length()) {
             return "";
