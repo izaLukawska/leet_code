@@ -27,5 +27,4 @@ public class LC_93 {
 
         return maxArea;
     }
-
 }
