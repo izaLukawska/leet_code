@@ -2,6 +2,7 @@ package pl.lukawska.leetcode.medium;
 
 import pl.lukawska.leetcode.ListNode;
 
+//https://leetcode.com/problems/rotate-list/description/
 public class LC_61 {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null || k == 0){
