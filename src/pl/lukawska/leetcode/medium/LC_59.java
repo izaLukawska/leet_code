@@ -1,14 +1,8 @@
 package pl.lukawska.leetcode.medium;
 
-import java.util.Arrays;
-
 //https://leetcode.com/problems/spiral-matrix-ii/
 public class LC_59 {
-    public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(generateMatrix(3)));
-    }
-
-    public static int[][] generateMatrix(int n) {
+    public int[][] generateMatrix(int n) {
         int[][] mat = new int[n][n];
 
         int[] dr = {0, 1, 0, -1};
