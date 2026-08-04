@@ -22,7 +22,7 @@ public class LC_299 {
         for (int i = 0; i < 10; i++) {
             cowsCount += Math.min(secretDigitFreq[i], guessDigitFreq[i]);
         }
-        
+
         return bullsCount + "A" + cowsCount + "B";
     }
 }
