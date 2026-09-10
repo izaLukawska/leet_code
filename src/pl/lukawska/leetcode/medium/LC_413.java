@@ -18,7 +18,7 @@ public class LC_413 {
                 currentRun = 0;
             }
         }
-        
+
         return count;
     }
 }
